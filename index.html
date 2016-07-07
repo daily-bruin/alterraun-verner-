@@ -2,7 +2,25 @@
 <html>
 <head>
   <title>Alterraun Verner | Daily Bruin</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+  <h1>Alterraun Verner</h1>
+  <!-- Trigger the Modal -->
+  <img id="image" src="https://s-media-cache-ak0.pinimg.com/564x/89/b1/1f/89b11fddd2ea7e3fb050fe8f8ce401dd.jpg" alt="hamster" width="300" height="200">
+
+  <!-- The Close Button -->
+  <div class="close" onclick="document.getElementById('pic-modal').style.display='none'">
+    <div id="pic-modal" class="modal">
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img01">
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
+  </div>
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
