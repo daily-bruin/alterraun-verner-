@@ -29,6 +29,4 @@ for (var i = 0; i < imageArray.length; i++) {
 }
 
 // jQuery and magic.css
-setTimeout(function() {
-  $(".headline").addClass('magictime puffIn ')
-})
+  $(".headline").addClass('magictime puffIn');
