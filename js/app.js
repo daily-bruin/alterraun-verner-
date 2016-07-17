@@ -29,4 +29,6 @@ for (var i = 0; i < imageArray.length; i++) {
 }
 
 // jQuery and magic.css
-  $(".headline").addClass('magictime puffIn');
+$(".headline").addClass('magictime puffIn');
+
+$("#myModal").modal();
