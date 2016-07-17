@@ -1,11 +1,21 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
 .headline {
   color: white;
   background-color: rgba(0, 0, 0, 0.9);
   text-align: center;
   padding: 10px;
   width: 400px;
-  margin: auto;
   border-radius: 3px;
+  margin: auto;
+}
+
+.jumbotron {
+  background-image: url('http://images.mentalfloss.com/sites/default/files/styles/insert_main_wide_image/public/iStock_000006166025_Small.jpg');
+  background-size: cover;
+  height: 100%;
 }
 
 .image-wrap {
@@ -49,6 +59,10 @@
 #myModal {
   outline: none;
   top: 10%;
+}
+
+.page-credit {
+  text-align: center;
 }
 /* 100% Image Width on Smaller Screens
 @media only screen and (max-width: 700px){
