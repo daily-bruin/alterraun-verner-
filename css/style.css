@@ -8,7 +8,7 @@ html, body {
 }
 .headline {
   color: white;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(255, 0, 0, 0.7);
   text-align: center;
   padding: 10px;
   min-width: 300px;
@@ -22,7 +22,8 @@ html, body {
 .jumbotron {
   background-image: url('../img/footballportrait.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center top;
+  background-attachment: fixed;
   height: 100%;
   padding: 0px;
 }
