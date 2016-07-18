@@ -99,17 +99,17 @@ html, body {
   font-family: 'Lato', sans-serif;
 }
 
-/*iPhone 5 styling*/
+/*iPhone mobile styling*/
 @media screen and (min-width: 310px) and (max-width: 570px){
   .headline {
-    width: 25%;
+    width: 260px;
     margin: auto;
     font-size: 20px;
   }
 
   .image {
-    width: 250px;
-    height: 150px;
+    width: 260px;
+    height: 160px;
     margin: 5px 5px;
   }
 
@@ -117,5 +117,76 @@ html, body {
     width: 300px;
     height: 300px;
     margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 374px) and (max-width: 670px) {
+  .image-wrap {
+    border: 2px solid #eee;
+    border-radius: 2px;
+    padding: 5px;
+    max-width: 400px;
+  }
+
+  .image {
+    width: 310px;
+    height: 210px;
+  }
+}
+
+@media screen and (min-width: 410px) and (max-width: 740px) {
+  .image-wrap {
+    border: 2px solid #eee;
+    border-radius: 2px;
+    padding: 5px;
+    max-width: 360px;
+  }
+
+  .image {
+    width: 335px;
+    height: 235px;
+  }
+}
+
+/*Android mobile styling*/
+@media screen and (min-width: 359px) and (max-width: 641px) {
+  .image-wrap {
+    border: 2px solid #eee;
+    border-radius: 2px;
+    padding: 5px;
+    max-width: 330px;
+  }
+
+  .image {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 410px) and (max-width: 732px) {
+  .image-wrap {
+    border: 2px solid #eee;
+    border-radius: 2px;
+    padding: 5px;
+    max-width: 390px;
+  }
+
+  .image {
+    width: 350px;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 434px) and (max-width: 774px) {
+  .image-wrap {
+    border: 2px solid #eee;
+    border-radius: 2px;
+    padding: 5px;
+    max-width: 400px;
+  }
+
+  .image {
+    width: 375px;
+    height: 275px;
   }
 }
