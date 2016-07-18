@@ -84,9 +84,10 @@ html, body {
   font-family: 'Lato', sans-serif;
 }
 
+/*iPhone 5 styling*/
 @media screen and (min-width: 310px) and (max-width: 570px){
   .headline {
-    width: 300px;
+    width: 25%;
     margin: auto;
     font-size: 20px;
   }
